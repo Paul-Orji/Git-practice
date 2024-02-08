@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/);
+
+* {
+    margin: 0;
+    /* padding: 5px 25px; */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    /* max-width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+.header {
+    display: flex; 
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 10px 10px;
+    /* width: 100%; */
+    /* background-color: transparent; */
+}
+
+.logo {
+    font-size: larger;
+    color: rgb(25, 25, 25);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: none;
+    z-index: 10;
+    justify-content: space-between;
+    
+    
+   
+}
+
+.nav-text {
+    color: rgb(86, 80, 80);
+    margin-right: 20px;
+
+    
+}
+
+.hero { 
+    display: flex;
+}
+
+.hero-head {
+    color:rgb(25, 25, 25) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 54px;
+    margin-top: 1rem;
+    z-index: 6;
+    
+}
+
+span {
+    color: rgb(55, 189, 189); 
+    
+}
+
+#hero-img {
+    margin-top: -4rem;
+    background-color: rgb(55, 189, 189);
+    width: 80%;
+    margin-right: -4rem;
+    /* position: absolute; */
+    z-index: 4;
+    
+}
+
+.hero-text {
+margin-top: 1rem;
+color: gray;
+font-size: medium;
+}
+
+.hero-btn {
+    margin-top: 2rem;
+    color: white;
+    font-size:xx-small;
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color:rgb(55, 189, 189) ;
+}
+
+.cont {
+    display: flex;
+    margin-top: -6rem;
+    
+    
+    
+}
+
+.cont-fig1 h3 {
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.cont-fig h3 {
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.cont-fig {
+    margin-left: 6rem;
+}
+
+.config-txt {
+    font-size:xx-small;
+    color: gray;
+    margin-top: 5%;
+}
+
+.services {
+    display: flex;
+    margin-top: 2rem;
+    z-index: 8;
+}
+
+.ser-cont {
+    border-style: none;
+    background-color: white;
+    padding: 1rem;
+}
+
+.ser-cont2 {
+    margin-left: 4rem;
+    border-style: none;
+    background-color: white;
+    padding: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.service-txt {
+    font-size: small;
+    margin-top: 5%;
+    color: gray;
+}
+
+.orna {
+    position: absolute;
+    z-index: 5;
+    margin-top: 15rem;
+    margin-right: 40rem;
+    margin-left: -17rem; 
+}
+
+.orna2 {
+    position: absolute;
+    z-index: 15;
+    margin-top: 16.6rem;
+    margin-right: 40rem;
+    margin-left: -17rem; 
+}
+
+
